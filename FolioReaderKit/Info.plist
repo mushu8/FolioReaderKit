@@ -22,5 +22,11 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>NSPrincipalClass</key>
 	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>ExcellenceInMotion-Bold.otf</string>
+		<string>ExcellenceInMotion-Medium.otf</string>
+		<string>ExcellenceInMotion.otf</string>
+	</array>
 </dict>
 </plist>
