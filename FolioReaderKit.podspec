@@ -1,17 +1,15 @@
 Pod::Spec.new do |s|
   s.name             = "FolioReaderKit"
   s.version          = "1.1.0"
-  s.summary          = "A Swift ePub reader and parser framework for iOS."
+  s.summary          = "A fork of FolioReaderKit to integrate properly custom fonts"
   s.description  = <<-DESC
                    Written in Swift.
                    The Best Open Source ePub Reader.
                    DESC
-  s.homepage         = "https://github.com/FolioReader/FolioReaderKit"
-  s.screenshots     = "https://raw.githubusercontent.com/FolioReader/FolioReaderKit/assets/custom-fonts.gif", "https://raw.githubusercontent.com/FolioReader/FolioReaderKit/assets/highlight.gif"
+  s.homepage         = "https://github.com/mushu8/FolioReaderKit"
   s.license          = 'BSD'
-  s.author           = { "Heberti Almeida" => "hebertialmeida@gmail.com" }
-  s.source           = { :git => "https://github.com/FolioReader/FolioReaderKit.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/hebertialmeida'
+  s.author           = { "Alexandre Sagette" => "sagette.alexandre@gmail.com" }
+  s.source           = { :git => "https://github.com/mushu8/FolioReaderKit", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
