@@ -158,6 +158,16 @@ class FolioReaderFontsMenu: UIViewController, SMSegmentViewDelegate, UIGestureRe
         fontName.addSegmentWithTitle("Lora",		onSelectionImage: nil, offSelectionImage: nil)
         fontName.addSegmentWithTitle("Raleway",		onSelectionImage: nil, offSelectionImage: nil)
 		fontName.addSegmentWithTitle("Excellence",	onSelectionImage: nil, offSelectionImage: nil)
+
+		for family: String in UIFont.familyNames
+		{
+			print("\(family)")
+			for names: String in UIFont.fontNames(forFamilyName: family)
+			{
+				print("== \(names)")
+			}
+		}
+
         fontName.segments[0].titleFont = UIFont(name: "Andada-Regular",		size: 18)!
         fontName.segments[1].titleFont = UIFont(name: "Lato-Regular",		size: 18)!
         fontName.segments[2].titleFont = UIFont(name: "Lora-Regular",		size: 18)!
