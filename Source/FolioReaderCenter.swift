@@ -426,6 +426,7 @@ open class FolioReaderCenter: UIViewController, UICollectionViewDelegate, UIColl
 				html = modifiedHtmlContent
 			}
 
+			debugPrint("page html: \(html)")
 			cell.loadHTMLString(html, baseURL: URL(fileURLWithPath: (resource.fullHref as NSString).deletingLastPathComponent))
 		}
 
