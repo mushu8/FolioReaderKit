@@ -69,6 +69,7 @@
 		6F71EE441E969BA900A48136 /* macosx.modulemap in Resources */ = {isa = PBXBuildFile; fileRef = 6F71EE3C1E96987B00A48136 /* macosx.modulemap */; };
 		6F71EE481E96A27000A48136 /* FolioReaderKit-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F00F9131E96877F0089CDD1 /* FolioReaderKit-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F71EE491E96A4F600A48136 /* FolioReaderKit-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F00F9131E96877F0089CDD1 /* FolioReaderKit-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F71EE4A1E96A7D000A48136 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F00F91B1E968A080089CDD1 /* CommonCrypto.framework */; };
 		6FC31D001E9671C10023BBE5 /* FREncrypter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC31CFF1E9671C10023BBE5 /* FREncrypter.swift */; };
 		6FF5505D1E84299C006F91B6 /* ExcellenceInMotion-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FF5505A1E84299C006F91B6 /* ExcellenceInMotion-Medium.otf */; };
 		B0D6990F1D035FA2003B4CCD /* FolioReaderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D6990E1D035FA2003B4CCD /* FolioReaderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -191,6 +192,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F71EE4A1E96A7D000A48136 /* CommonCrypto.framework in Frameworks */,
 				5D79EE5F6A708E551D79CB8A /* Pods_FolioReaderKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -933,7 +935,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/include/CommonCrypto",
+				);
 				INFOPLIST_FILE = FolioReaderKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -957,7 +962,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/include/CommonCrypto",
+				);
 				INFOPLIST_FILE = FolioReaderKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
