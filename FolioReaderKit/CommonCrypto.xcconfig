@@ -1,0 +1,10 @@
+//
+//  CommonCrypto.xcconfig
+//  FolioReaderKit
+//
+//  Created by Alexandre Sagette on 06/04/2017.
+//  Copyright © 2017 FolioReader. All rights reserved.
+//
+MODULEMAP_FILE[sdk=iphoneos*]        = $(SRCROOT)/CommonCrypto/iphoneos.modulemap
+MODULEMAP_FILE[sdk=iphonesimulator*] = $(SRCROOT)/CommonCrypto/iphonesimulator.modulemap
+MODULEMAP_FILE[sdk=macosx*]          = $(SRCROOT)/CommonCrypto/macosx.modulemap
