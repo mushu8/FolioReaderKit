@@ -31,6 +31,9 @@ class FREncrypter: NSObject
 			let fontData = try Data(contentsOf: URL(fileURLWithPath: atPath), options: .alwaysMapped)
 			let trimmedDeofuscationKey = deofuscationKey.trimmingCharacters(in: .whitespaces)
 			let hasheddeofuscationKey = sha1(trimmedDeofuscationKey)
+
+			debugPrint("deofuscationKey: \(deofuscationKey)")
+			debugPrint("hasheddeofuscationKey: \(hasheddeofuscationKey)")
 		}
 		catch {
 
