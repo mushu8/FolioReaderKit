@@ -67,7 +67,8 @@
 		6F71EE421E969BA900A48136 /* iphoneos.modulemap in Resources */ = {isa = PBXBuildFile; fileRef = 6F71EE3A1E96987B00A48136 /* iphoneos.modulemap */; };
 		6F71EE431E969BA900A48136 /* iphonesimulator.modulemap in Resources */ = {isa = PBXBuildFile; fileRef = 6F71EE3B1E96987B00A48136 /* iphonesimulator.modulemap */; };
 		6F71EE441E969BA900A48136 /* macosx.modulemap in Resources */ = {isa = PBXBuildFile; fileRef = 6F71EE3C1E96987B00A48136 /* macosx.modulemap */; };
-		6F71EE451E969F9D00A48136 /* FolioReaderKit-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F00F9131E96877F0089CDD1 /* FolioReaderKit-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F71EE461E96A1E500A48136 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F00F91B1E968A080089CDD1 /* CommonCrypto.framework */; };
+		6F71EE481E96A27000A48136 /* FolioReaderKit-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F00F9131E96877F0089CDD1 /* FolioReaderKit-Bridging-Header.h */; };
 		6FC31D001E9671C10023BBE5 /* FREncrypter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC31CFF1E9671C10023BBE5 /* FREncrypter.swift */; };
 		6FF5505D1E84299C006F91B6 /* ExcellenceInMotion-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FF5505A1E84299C006F91B6 /* ExcellenceInMotion-Medium.otf */; };
 		B0D6990F1D035FA2003B4CCD /* FolioReaderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D6990E1D035FA2003B4CCD /* FolioReaderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -190,6 +191,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F71EE461E96A1E500A48136 /* CommonCrypto.framework in Frameworks */,
 				5D79EE5F6A708E551D79CB8A /* Pods_FolioReaderKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,6 +233,7 @@
 				1A958F151D397BE900D56699 /* FolioReaderFontsMenu.swift */,
 				1A958F161D397BE900D56699 /* FolioReaderHighlightList.swift */,
 				1A958F171D397BE900D56699 /* FolioReaderKit.h */,
+				6F00F9131E96877F0089CDD1 /* FolioReaderKit-Bridging-Header.h */,
 				1A958F181D397BE900D56699 /* FolioReaderKit.swift */,
 				1A958F191D397BE900D56699 /* FolioReaderPage.swift */,
 				1A958F1A1D397BE900D56699 /* FolioReaderPageIndicator.swift */,
@@ -404,7 +407,6 @@
 				B0D69B501D0365AC003B4CCD /* Frameworks */,
 				B0D6990E1D035FA2003B4CCD /* FolioReaderKit.h */,
 				B0D699101D035FA2003B4CCD /* Info.plist */,
-				6F00F9131E96877F0089CDD1 /* FolioReaderKit-Bridging-Header.h */,
 				6F00F9231E968A310089CDD1 /* CommonCrypto.xcconfig */,
 			);
 			path = FolioReaderKit;
@@ -468,7 +470,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A958FA31D397BE900D56699 /* FolioReaderKit.h in Headers */,
-				6F71EE451E969F9D00A48136 /* FolioReaderKit-Bridging-Header.h in Headers */,
+				6F71EE481E96A27000A48136 /* FolioReaderKit-Bridging-Header.h in Headers */,
 				B0D6990F1D035FA2003B4CCD /* FolioReaderKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
