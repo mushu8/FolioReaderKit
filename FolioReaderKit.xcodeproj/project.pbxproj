@@ -67,6 +67,7 @@
 		6F71EE421E969BA900A48136 /* iphoneos.modulemap in Resources */ = {isa = PBXBuildFile; fileRef = 6F71EE3A1E96987B00A48136 /* iphoneos.modulemap */; };
 		6F71EE431E969BA900A48136 /* iphonesimulator.modulemap in Resources */ = {isa = PBXBuildFile; fileRef = 6F71EE3B1E96987B00A48136 /* iphonesimulator.modulemap */; };
 		6F71EE441E969BA900A48136 /* macosx.modulemap in Resources */ = {isa = PBXBuildFile; fileRef = 6F71EE3C1E96987B00A48136 /* macosx.modulemap */; };
+		6F71EE451E969F9D00A48136 /* FolioReaderKit-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F00F9131E96877F0089CDD1 /* FolioReaderKit-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FC31D001E9671C10023BBE5 /* FREncrypter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC31CFF1E9671C10023BBE5 /* FREncrypter.swift */; };
 		6FF5505D1E84299C006F91B6 /* ExcellenceInMotion-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FF5505A1E84299C006F91B6 /* ExcellenceInMotion-Medium.otf */; };
 		B0D6990F1D035FA2003B4CCD /* FolioReaderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D6990E1D035FA2003B4CCD /* FolioReaderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -467,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A958FA31D397BE900D56699 /* FolioReaderKit.h in Headers */,
+				6F71EE451E969F9D00A48136 /* FolioReaderKit-Bridging-Header.h in Headers */,
 				B0D6990F1D035FA2003B4CCD /* FolioReaderKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
