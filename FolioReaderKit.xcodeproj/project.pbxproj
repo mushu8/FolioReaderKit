@@ -59,6 +59,7 @@
 		2A8D79C5B340869FD42946D3 /* Pods_FolioReaderKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3D170A0C32D5AE8F06CB95 /* Pods_FolioReaderKitTests.framework */; };
 		3AD5EEB91D9433C100E42810 /* FolioReaderWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5EEB81D9433C100E42810 /* FolioReaderWebView.swift */; };
 		5D79EE5F6A708E551D79CB8A /* Pods_FolioReaderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53020624F52CF53136358BBC /* Pods_FolioReaderKit.framework */; };
+		6FC31D001E9671C10023BBE5 /* FREncrypter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC31CFF1E9671C10023BBE5 /* FREncrypter.swift */; };
 		6FF5505C1E84299C006F91B6 /* ExcellenceInMotion-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FF550591E84299C006F91B6 /* ExcellenceInMotion-Bold.otf */; };
 		6FF5505D1E84299C006F91B6 /* ExcellenceInMotion-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FF5505A1E84299C006F91B6 /* ExcellenceInMotion-Medium.otf */; };
 		6FF5505E1E84299C006F91B6 /* ExcellenceInMotion.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FF5505B1E84299C006F91B6 /* ExcellenceInMotion.otf */; };
@@ -137,6 +138,7 @@
 		1A9590161D397CAF00D56699 /* FolioReaderKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FolioReaderKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3AD5EEB81D9433C100E42810 /* FolioReaderWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolioReaderWebView.swift; sourceTree = "<group>"; };
 		53020624F52CF53136358BBC /* Pods_FolioReaderKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FolioReaderKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC31CFF1E9671C10023BBE5 /* FREncrypter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FREncrypter.swift; sourceTree = "<group>"; };
 		6FF550591E84299C006F91B6 /* ExcellenceInMotion-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ExcellenceInMotion-Bold.otf"; sourceTree = "<group>"; };
 		6FF5505A1E84299C006F91B6 /* ExcellenceInMotion-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ExcellenceInMotion-Medium.otf"; sourceTree = "<group>"; };
 		6FF5505B1E84299C006F91B6 /* ExcellenceInMotion.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ExcellenceInMotion.otf; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 				1A958F0C1D397BE900D56699 /* FRSmils.swift */,
 				1A958F0D1D397BE900D56699 /* FRSpine.swift */,
 				1A958F0E1D397BE900D56699 /* FRTocReference.swift */,
+				6FC31CFF1E9671C10023BBE5 /* FREncrypter.swift */,
 			);
 			path = EPUBCore;
 			sourceTree = "<group>";
@@ -631,6 +634,7 @@
 				B0D69CC91D0387F7003B4CCD /* SMSegment.swift in Sources */,
 				B0D69CCA1D0387F7003B4CCD /* SMSegmentView.swift in Sources */,
 				1A958FA01D397BE900D56699 /* FolioReaderContainer.swift in Sources */,
+				6FC31D001E9671C10023BBE5 /* FREncrypter.swift in Sources */,
 				1A958FA81D397BE900D56699 /* FolioReaderSharingProvider.swift in Sources */,
 				1A958FAB1D397BE900D56699 /* Highlight+Helper.swift in Sources */,
 				3AD5EEB91D9433C100E42810 /* FolioReaderWebView.swift in Sources */,

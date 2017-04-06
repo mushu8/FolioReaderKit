@@ -92,6 +92,7 @@ class FREpubParser: NSObject, SSZipArchiveDelegate {
         
         kBookId = bookName
         readContainer()
+		readEncryption()
         readOpf()
         return book
     }
@@ -114,7 +115,29 @@ class FREpubParser: NSObject, SSZipArchiveDelegate {
             print("Cannot read container.xml")
         }
     }
-    
+
+	/**
+	Read and parse encryption.xml file.
+	Only deobfuscation of fonts is supported.
+	*/
+	fileprivate func readEncryption() {
+		let encryptionPath = "META-INF/encryption.xml"
+
+		do {
+			let containerData = try Data(contentsOf: URL(fileURLWithPath: (bookBasePath as NSString).appendingPathComponent(encryptionPath)), options: .alwaysMapped)
+			let xmlDoc = try AEXMLDocument(xml: containerData)
+			let encryptedData = xmlDoc.children
+			for encryptedItem in encryptedData {
+				let encryptionMethod	= encryptedItem["enc:EncryptionMethod"].attributes["Algorithm"]!
+				let encryptedFontPath	= encryptedItem["enc:CipherData"]["enc:CipherReference"].attributes["URI"]!
+
+				FREncrypter.shared.deobfuscate(path: encryptedFontPath, method: encryptionMethod)
+			}
+		} catch {
+			print("Cannot read encryption.xml")
+		}
+	}
+
     /**
      Read and parse .opf file.
     */
@@ -129,7 +152,7 @@ class FREpubParser: NSObject, SSZipArchiveDelegate {
             // Base OPF info
             if let package = xmlDoc.children.first {
                 identifier = package.attributes["unique-identifier"]
-                
+
                 if let version = package.attributes["version"] {
                     book.version = Double(version)
                 }
