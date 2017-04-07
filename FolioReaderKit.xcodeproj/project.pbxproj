@@ -27,7 +27,7 @@
 		1A958FA01D397BE900D56699 /* FolioReaderContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A958F141D397BE900D56699 /* FolioReaderContainer.swift */; };
 		1A958FA11D397BE900D56699 /* FolioReaderFontsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A958F151D397BE900D56699 /* FolioReaderFontsMenu.swift */; };
 		1A958FA21D397BE900D56699 /* FolioReaderHighlightList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A958F161D397BE900D56699 /* FolioReaderHighlightList.swift */; };
-		1A958FA31D397BE900D56699 /* FolioReaderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A958F171D397BE900D56699 /* FolioReaderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A958FA31D397BE900D56699 /* FolioReaderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A958F171D397BE900D56699 /* FolioReaderKit.h */; };
 		1A958FA41D397BE900D56699 /* FolioReaderKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A958F181D397BE900D56699 /* FolioReaderKit.swift */; };
 		1A958FA51D397BE900D56699 /* FolioReaderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A958F191D397BE900D56699 /* FolioReaderPage.swift */; };
 		1A958FA61D397BE900D56699 /* FolioReaderPageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A958F1A1D397BE900D56699 /* FolioReaderPageIndicator.swift */; };
