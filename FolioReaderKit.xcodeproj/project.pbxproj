@@ -27,7 +27,7 @@
 		1A958FA01D397BE900D56699 /* FolioReaderContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A958F141D397BE900D56699 /* FolioReaderContainer.swift */; };
 		1A958FA11D397BE900D56699 /* FolioReaderFontsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A958F151D397BE900D56699 /* FolioReaderFontsMenu.swift */; };
 		1A958FA21D397BE900D56699 /* FolioReaderHighlightList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A958F161D397BE900D56699 /* FolioReaderHighlightList.swift */; };
-		1A958FA31D397BE900D56699 /* FolioReaderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A958F171D397BE900D56699 /* FolioReaderKit.h */; };
+		1A958FA31D397BE900D56699 /* FolioReaderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A958F171D397BE900D56699 /* FolioReaderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A958FA41D397BE900D56699 /* FolioReaderKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A958F181D397BE900D56699 /* FolioReaderKit.swift */; };
 		1A958FA51D397BE900D56699 /* FolioReaderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A958F191D397BE900D56699 /* FolioReaderPage.swift */; };
 		1A958FA61D397BE900D56699 /* FolioReaderPageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A958F1A1D397BE900D56699 /* FolioReaderPageIndicator.swift */; };
@@ -61,12 +61,6 @@
 		5D79EE5F6A708E551D79CB8A /* Pods_FolioReaderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53020624F52CF53136358BBC /* Pods_FolioReaderKit.framework */; };
 		6F00F92B1E968EB30089CDD1 /* ExcellenceInMotion-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FF550591E84299C006F91B6 /* ExcellenceInMotion-Bold.otf */; };
 		6F00F92C1E968EB30089CDD1 /* ExcellenceInMotion.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FF5505B1E84299C006F91B6 /* ExcellenceInMotion.otf */; };
-		6F71EE3F1E969B3C00A48136 /* iphoneos.modulemap in Resources */ = {isa = PBXBuildFile; fileRef = 6F71EE3A1E96987B00A48136 /* iphoneos.modulemap */; };
-		6F71EE401E969B3C00A48136 /* iphonesimulator.modulemap in Resources */ = {isa = PBXBuildFile; fileRef = 6F71EE3B1E96987B00A48136 /* iphonesimulator.modulemap */; };
-		6F71EE411E969B3C00A48136 /* macosx.modulemap in Resources */ = {isa = PBXBuildFile; fileRef = 6F71EE3C1E96987B00A48136 /* macosx.modulemap */; };
-		6F71EE4C1E96B2B900A48136 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F71EE4B1E96B2B900A48136 /* Info.plist */; };
-		6F71EE561E96B36500A48136 /* CommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F71EE541E96B36500A48136 /* CommonCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F71EE5A1E96B41200A48136 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F71EE521E96B36500A48136 /* CommonCrypto.framework */; };
 		6FC31D001E9671C10023BBE5 /* FREncrypter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC31CFF1E9671C10023BBE5 /* FREncrypter.swift */; };
 		6FF5505D1E84299C006F91B6 /* ExcellenceInMotion-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FF5505A1E84299C006F91B6 /* ExcellenceInMotion-Medium.otf */; };
 		B0D6990F1D035FA2003B4CCD /* FolioReaderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D6990E1D035FA2003B4CCD /* FolioReaderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -144,12 +138,6 @@
 		1A9590161D397CAF00D56699 /* FolioReaderKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FolioReaderKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3AD5EEB81D9433C100E42810 /* FolioReaderWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolioReaderWebView.swift; sourceTree = "<group>"; };
 		53020624F52CF53136358BBC /* Pods_FolioReaderKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FolioReaderKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F00F9231E968A310089CDD1 /* CommonCrypto.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = CommonCrypto.xcconfig; path = ../FolioReaderKit/CommonCrypto.xcconfig; sourceTree = "<group>"; };
-		6F71EE3A1E96987B00A48136 /* iphoneos.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = iphoneos.modulemap; sourceTree = "<group>"; };
-		6F71EE3B1E96987B00A48136 /* iphonesimulator.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = iphonesimulator.modulemap; sourceTree = "<group>"; };
-		6F71EE3C1E96987B00A48136 /* macosx.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = macosx.modulemap; sourceTree = "<group>"; };
-		6F71EE4B1E96B2B900A48136 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F71EE521E96B36500A48136 /* CommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F71EE541E96B36500A48136 /* CommonCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonCrypto.h; sourceTree = "<group>"; };
 		6F71EE551E96B36500A48136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FC31CFF1E9671C10023BBE5 /* FREncrypter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FREncrypter.swift; sourceTree = "<group>"; };
@@ -172,18 +160,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6F71EE4E1E96B36500A48136 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B0D699071D035FA2003B4CCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F71EE5A1E96B41200A48136 /* CommonCrypto.framework in Frameworks */,
 				5D79EE5F6A708E551D79CB8A /* Pods_FolioReaderKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,19 +315,6 @@
 			path = Raleway;
 			sourceTree = "<group>";
 		};
-		6F71EE391E96987B00A48136 /* CommonCrypto */ = {
-			isa = PBXGroup;
-			children = (
-				6F71EE4B1E96B2B900A48136 /* Info.plist */,
-				6F00F9231E968A310089CDD1 /* CommonCrypto.xcconfig */,
-				6F71EE3A1E96987B00A48136 /* iphoneos.modulemap */,
-				6F71EE3B1E96987B00A48136 /* iphonesimulator.modulemap */,
-				6F71EE3C1E96987B00A48136 /* macosx.modulemap */,
-			);
-			name = CommonCrypto;
-			path = ../CommonCrypto;
-			sourceTree = "<group>";
-		};
 		6F71EE531E96B36500A48136 /* CommonCrypto */ = {
 			isa = PBXGroup;
 			children = (
@@ -396,7 +363,6 @@
 			children = (
 				B0D6990B1D035FA2003B4CCD /* FolioReaderKit.framework */,
 				B0D699151D035FA2003B4CCD /* FolioReaderKitTests.xctest */,
-				6F71EE521E96B36500A48136 /* CommonCrypto.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -404,7 +370,6 @@
 		B0D6990D1D035FA2003B4CCD /* FolioReaderKit */ = {
 			isa = PBXGroup;
 			children = (
-				6F71EE391E96987B00A48136 /* CommonCrypto */,
 				1A958F031D397BE900D56699 /* Source */,
 				B0D69C421D0387F7003B4CCD /* Vendor */,
 				B0D69B501D0365AC003B4CCD /* Frameworks */,
@@ -460,14 +425,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6F71EE4F1E96B36500A48136 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6F71EE561E96B36500A48136 /* CommonCrypto.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B0D699081D035FA2003B4CCD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -480,24 +437,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6F71EE511E96B36500A48136 /* CommonCrypto */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6F71EE571E96B36500A48136 /* Build configuration list for PBXNativeTarget "CommonCrypto" */;
-			buildPhases = (
-				6F71EE4D1E96B36500A48136 /* Sources */,
-				6F71EE4E1E96B36500A48136 /* Frameworks */,
-				6F71EE4F1E96B36500A48136 /* Headers */,
-				6F71EE501E96B36500A48136 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CommonCrypto;
-			productName = CommonCrypto;
-			productReference = 6F71EE521E96B36500A48136 /* CommonCrypto.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		B0D6990A1D035FA2003B4CCD /* FolioReaderKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0D6991F1D035FA2003B4CCD /* Build configuration list for PBXNativeTarget "FolioReaderKit" */;
@@ -549,10 +488,6 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = FolioReader;
 				TargetAttributes = {
-					6F71EE511E96B36500A48136 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-					};
 					B0D6990A1D035FA2003B4CCD = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = SEWFFX9G6V;
@@ -579,26 +514,15 @@
 			targets = (
 				B0D6990A1D035FA2003B4CCD /* FolioReaderKit */,
 				B0D699141D035FA2003B4CCD /* FolioReaderKitTests */,
-				6F71EE511E96B36500A48136 /* CommonCrypto */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6F71EE501E96B36500A48136 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B0D699091D035FA2003B4CCD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F71EE3F1E969B3C00A48136 /* iphoneos.modulemap in Resources */,
-				6F71EE401E969B3C00A48136 /* iphonesimulator.modulemap in Resources */,
-				6F71EE411E969B3C00A48136 /* macosx.modulemap in Resources */,
 				1A958FBA1D397BE900D56699 /* Lora-Italic.ttf in Resources */,
 				1A958FB21D397BE900D56699 /* Andada-Italic.otf in Resources */,
 				1A958FBF1D397BE900D56699 /* Raleway-Regular.ttf in Resources */,
@@ -608,7 +532,6 @@
 				1A958FB81D397BE900D56699 /* Lora-Bold.ttf in Resources */,
 				1A958FBE1D397BE900D56699 /* Raleway-Italic.ttf in Resources */,
 				6FF5505D1E84299C006F91B6 /* ExcellenceInMotion-Medium.otf in Resources */,
-				6F71EE4C1E96B2B900A48136 /* Info.plist in Resources */,
 				6F00F92B1E968EB30089CDD1 /* ExcellenceInMotion-Bold.otf in Resources */,
 				6F00F92C1E968EB30089CDD1 /* ExcellenceInMotion.otf in Resources */,
 				1A9590151D397C1300D56699 /* Images.xcassets in Resources */,
@@ -713,13 +636,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6F71EE4D1E96B36500A48136 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B0D699061D035FA2003B4CCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -780,46 +696,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		6F71EE581E96B36500A48136 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F00F9231E968A310089CDD1 /* CommonCrypto.xcconfig */;
-			buildSettings = {
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CommonCrypto/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.airfrance.CommonCrypto;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		6F71EE591E96B36500A48136 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F00F9231E968A310089CDD1 /* CommonCrypto.xcconfig */;
-			buildSettings = {
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CommonCrypto/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.airfrance.CommonCrypto;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		B0D6991D1D035FA2003B4CCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -938,6 +814,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -965,6 +842,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -998,14 +876,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6F71EE571E96B36500A48136 /* Build configuration list for PBXNativeTarget "CommonCrypto" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6F71EE581E96B36500A48136 /* Debug */,
-				6F71EE591E96B36500A48136 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		B0D699051D035FA1003B4CCD /* Build configuration list for PBXProject "FolioReaderKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
