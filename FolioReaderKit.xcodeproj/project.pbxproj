@@ -61,6 +61,8 @@
 		5D79EE5F6A708E551D79CB8A /* Pods_FolioReaderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53020624F52CF53136358BBC /* Pods_FolioReaderKit.framework */; };
 		6F00F92B1E968EB30089CDD1 /* ExcellenceInMotion-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FF550591E84299C006F91B6 /* ExcellenceInMotion-Bold.otf */; };
 		6F00F92C1E968EB30089CDD1 /* ExcellenceInMotion.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FF5505B1E84299C006F91B6 /* ExcellenceInMotion.otf */; };
+		6F88278C1E9BA94E006A61A5 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB758011E9BA4AE00EB2F7D /* CommonCrypto.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6FB758101E9BA82400EB2F7D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB7580F1E9BA82400EB2F7D /* Security.framework */; };
 		6FC31D001E9671C10023BBE5 /* FREncrypter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC31CFF1E9671C10023BBE5 /* FREncrypter.swift */; };
 		6FF5505D1E84299C006F91B6 /* ExcellenceInMotion-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FF5505A1E84299C006F91B6 /* ExcellenceInMotion-Medium.otf */; };
 		B0D6990F1D035FA2003B4CCD /* FolioReaderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D6990E1D035FA2003B4CCD /* FolioReaderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -72,6 +74,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6FB7580D1E9BA79200EB2F7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0D699021D035FA1003B4CCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FB758001E9BA4AE00EB2F7D;
+			remoteInfo = CommonCrypto;
+		};
 		B0D699171D035FA2003B4CCD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B0D699021D035FA1003B4CCD /* Project object */;
@@ -138,7 +147,13 @@
 		1A9590161D397CAF00D56699 /* FolioReaderKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FolioReaderKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3AD5EEB81D9433C100E42810 /* FolioReaderWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolioReaderWebView.swift; sourceTree = "<group>"; };
 		53020624F52CF53136358BBC /* Pods_FolioReaderKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FolioReaderKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FB757FB1E9B83D900EB2F7D /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
+		6FB758011E9BA4AE00EB2F7D /* CommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB758041E9BA4AE00EB2F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FB758091E9BA4D900EB2F7D /* CommonCrypto.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CommonCrypto.xcconfig; sourceTree = "<group>"; };
+		6FB7580A1E9BA56900EB2F7D /* iphoneos.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = iphoneos.modulemap; sourceTree = "<group>"; };
+		6FB7580B1E9BA57900EB2F7D /* iphonesimulator.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = iphonesimulator.modulemap; sourceTree = "<group>"; };
+		6FB7580C1E9BA58200EB2F7D /* macosx.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = macosx.modulemap; sourceTree = "<group>"; };
+		6FB7580F1E9BA82400EB2F7D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		6FC31CFF1E9671C10023BBE5 /* FREncrypter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FREncrypter.swift; sourceTree = "<group>"; };
 		6FF550591E84299C006F91B6 /* ExcellenceInMotion-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ExcellenceInMotion-Bold.otf"; sourceTree = "<group>"; };
 		6FF5505A1E84299C006F91B6 /* ExcellenceInMotion-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ExcellenceInMotion-Medium.otf"; sourceTree = "<group>"; };
@@ -159,10 +174,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6FB757FD1E9BA4AE00EB2F7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0D699071D035FA2003B4CCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FB758101E9BA82400EB2F7D /* Security.framework in Frameworks */,
+				6F88278C1E9BA94E006A61A5 /* CommonCrypto.framework in Frameworks */,
 				5D79EE5F6A708E551D79CB8A /* Pods_FolioReaderKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +206,7 @@
 		1A65DDCA1DA73F8C0033C277 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6FB7580F1E9BA82400EB2F7D /* Security.framework */,
 				1A65DDD01DA744190033C277 /* Realm.framework */,
 				1A65DDD11DA744190033C277 /* RealmSwift.framework */,
 				1A65DDCB1DA73F8D0033C277 /* MenuItemKit.framework */,
@@ -194,7 +219,6 @@
 		1A958F031D397BE900D56699 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				6F71EE531E96B36500A48136 /* CommonCrypto */,
 				1A958F041D397BE900D56699 /* EPUBCore */,
 				1A958F0F1D397BE900D56699 /* FolioReaderAudioPlayer.swift */,
 				1A958F101D397BE900D56699 /* FolioReaderCenter.swift */,
@@ -315,10 +339,14 @@
 			path = Raleway;
 			sourceTree = "<group>";
 		};
-		6F71EE531E96B36500A48136 /* CommonCrypto */ = {
+		6FB758021E9BA4AE00EB2F7D /* CommonCrypto */ = {
 			isa = PBXGroup;
 			children = (
-				6FB757FB1E9B83D900EB2F7D /* module.map */,
+				6FB758041E9BA4AE00EB2F7D /* Info.plist */,
+				6FB758091E9BA4D900EB2F7D /* CommonCrypto.xcconfig */,
+				6FB7580A1E9BA56900EB2F7D /* iphoneos.modulemap */,
+				6FB7580B1E9BA57900EB2F7D /* iphonesimulator.modulemap */,
+				6FB7580C1E9BA58200EB2F7D /* macosx.modulemap */,
 			);
 			path = CommonCrypto;
 			sourceTree = "<group>";
@@ -350,6 +378,7 @@
 				1A9590161D397CAF00D56699 /* FolioReaderKit.podspec */,
 				B0D6990D1D035FA2003B4CCD /* FolioReaderKit */,
 				B0D699191D035FA2003B4CCD /* FolioReaderKitTests */,
+				6FB758021E9BA4AE00EB2F7D /* CommonCrypto */,
 				B0D6990C1D035FA2003B4CCD /* Products */,
 				1A65DDCA1DA73F8C0033C277 /* Frameworks */,
 				80910E881BCB0F246AE24205 /* Pods */,
@@ -361,6 +390,7 @@
 			children = (
 				B0D6990B1D035FA2003B4CCD /* FolioReaderKit.framework */,
 				B0D699151D035FA2003B4CCD /* FolioReaderKitTests.xctest */,
+				6FB758011E9BA4AE00EB2F7D /* CommonCrypto.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -423,6 +453,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		6FB757FE1E9BA4AE00EB2F7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0D699081D035FA2003B4CCD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -435,6 +472,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		6FB758001E9BA4AE00EB2F7D /* CommonCrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FB758081E9BA4AE00EB2F7D /* Build configuration list for PBXNativeTarget "CommonCrypto" */;
+			buildPhases = (
+				6FB757FC1E9BA4AE00EB2F7D /* Sources */,
+				6FB757FD1E9BA4AE00EB2F7D /* Frameworks */,
+				6FB757FE1E9BA4AE00EB2F7D /* Headers */,
+				6FB757FF1E9BA4AE00EB2F7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommonCrypto;
+			productName = CommonCrypto;
+			productReference = 6FB758011E9BA4AE00EB2F7D /* CommonCrypto.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B0D6990A1D035FA2003B4CCD /* FolioReaderKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0D6991F1D035FA2003B4CCD /* Build configuration list for PBXNativeTarget "FolioReaderKit" */;
@@ -449,6 +504,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				6FB7580E1E9BA79200EB2F7D /* PBXTargetDependency */,
 			);
 			name = FolioReaderKit;
 			productName = FolioReaderKit;
@@ -486,6 +542,10 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = FolioReader;
 				TargetAttributes = {
+					6FB758001E9BA4AE00EB2F7D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
 					B0D6990A1D035FA2003B4CCD = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = SEWFFX9G6V;
@@ -512,11 +572,19 @@
 			targets = (
 				B0D6990A1D035FA2003B4CCD /* FolioReaderKit */,
 				B0D699141D035FA2003B4CCD /* FolioReaderKitTests */,
+				6FB758001E9BA4AE00EB2F7D /* CommonCrypto */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6FB757FF1E9BA4AE00EB2F7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0D699091D035FA2003B4CCD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -634,6 +702,13 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6FB757FC1E9BA4AE00EB2F7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0D699061D035FA2003B4CCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -686,6 +761,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		6FB7580E1E9BA79200EB2F7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FB758001E9BA4AE00EB2F7D /* CommonCrypto */;
+			targetProxy = 6FB7580D1E9BA79200EB2F7D /* PBXContainerItemProxy */;
+		};
 		B0D699181D035FA2003B4CCD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B0D6990A1D035FA2003B4CCD /* FolioReaderKit */;
@@ -694,6 +774,46 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		6FB758061E9BA4AE00EB2F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB758091E9BA4D900EB2F7D /* CommonCrypto.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CommonCrypto/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airfrance.CommonCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6FB758071E9BA4AE00EB2F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB758091E9BA4D900EB2F7D /* CommonCrypto.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CommonCrypto/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airfrance.CommonCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		B0D6991D1D035FA2003B4CCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -808,10 +928,11 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "${SDKROOT}/usr/lib/system";
 				PRODUCT_BUNDLE_IDENTIFIER = com.folioreader.FolioReaderKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Source/CommonCrypto";
+				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -836,10 +957,11 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "${SDKROOT}/usr/lib/system";
 				PRODUCT_BUNDLE_IDENTIFIER = com.folioreader.FolioReaderKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Source/CommonCrypto";
+				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
@@ -874,6 +996,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6FB758081E9BA4AE00EB2F7D /* Build configuration list for PBXNativeTarget "CommonCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB758061E9BA4AE00EB2F7D /* Debug */,
+				6FB758071E9BA4AE00EB2F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B0D699051D035FA1003B4CCD /* Build configuration list for PBXProject "FolioReaderKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
