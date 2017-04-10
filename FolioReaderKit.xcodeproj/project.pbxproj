@@ -138,8 +138,7 @@
 		1A9590161D397CAF00D56699 /* FolioReaderKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FolioReaderKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3AD5EEB81D9433C100E42810 /* FolioReaderWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolioReaderWebView.swift; sourceTree = "<group>"; };
 		53020624F52CF53136358BBC /* Pods_FolioReaderKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FolioReaderKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F71EE541E96B36500A48136 /* CommonCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonCrypto.h; sourceTree = "<group>"; };
-		6F71EE551E96B36500A48136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FB757FB1E9B83D900EB2F7D /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
 		6FC31CFF1E9671C10023BBE5 /* FREncrypter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FREncrypter.swift; sourceTree = "<group>"; };
 		6FF550591E84299C006F91B6 /* ExcellenceInMotion-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ExcellenceInMotion-Bold.otf"; sourceTree = "<group>"; };
 		6FF5505A1E84299C006F91B6 /* ExcellenceInMotion-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ExcellenceInMotion-Medium.otf"; sourceTree = "<group>"; };
@@ -318,8 +317,7 @@
 		6F71EE531E96B36500A48136 /* CommonCrypto */ = {
 			isa = PBXGroup;
 			children = (
-				6F71EE541E96B36500A48136 /* CommonCrypto.h */,
-				6F71EE551E96B36500A48136 /* Info.plist */,
+				6FB757FB1E9B83D900EB2F7D /* module.map */,
 			);
 			path = CommonCrypto;
 			sourceTree = "<group>";
@@ -813,7 +811,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.folioreader.FolioReaderKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_INCLUDE_PATHS = CommonCrypto;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -841,7 +839,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.folioreader.FolioReaderKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_INCLUDE_PATHS = CommonCrypto;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
