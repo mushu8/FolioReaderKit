@@ -37,6 +37,6 @@ Pod::Spec.new do |s|
   s.dependency 'FontBlaster', '3.0.0'
   s.dependency 'JSQWebViewController', '~> 5.0'
   s.dependency 'RealmSwift', '~> 2.1'
-  s.dependency 'CommonCryptoSwift', '~> 1.0'
+  s.dependency 'Arcane', '~> 0.5'
 
 end
