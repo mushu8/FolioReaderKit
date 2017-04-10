@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CommonCrypto
+import CCommonCrypto
 
 class FREncrypter: NSObject
 {
