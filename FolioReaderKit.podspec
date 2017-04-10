@@ -18,18 +18,16 @@ Pod::Spec.new do |s|
     'Source/*.{h,swift}',
     'Source/**/*.swift',
     'Vendor/**/*.swift',
-	'CommonCrypto/*.{h,m}',
   ]
   s.resources = [
     'Source/**/*.{js,css}',
     'Source/Resources/*.xcassets',
-    'Source/Resources/Fonts/**/*.{otf,ttf}',
-	'CommonCrypto/*.modulemap'
+    'Source/Resources/Fonts/**/*.{otf,ttf}'
   ]
-  s.public_header_files = 'Source/*.h', 'CommonCrypto/*.h'
+  s.public_header_files = 'Source/*.h'
 
-  s.xcconfig = { 'SWIFT_INCLUDE_PATHS' =>'$(PODS_ROOT)/CommonCrypto/iphoneos.modulemap' }
-  s.preserve_paths = 'CommonCrypto/iphoneos.modulemap'
+#  s.xcconfig = { 'SWIFT_INCLUDE_PATHS' =>'$(PODS_ROOT)/CommonCrypto/iphoneos.modulemap' }
+#  s.preserve_paths = 'CommonCrypto/iphoneos.modulemap'
 
   s.libraries  = "z"
   s.dependency 'SSZipArchive', '~> 1.6'
@@ -39,5 +37,6 @@ Pod::Spec.new do |s|
   s.dependency 'FontBlaster', '3.0.0'
   s.dependency 'JSQWebViewController', '~> 5.0'
   s.dependency 'RealmSwift', '~> 2.1'
+  s.dependency 'CommonCryptoSwift', '~> 1.0'
 
 end
