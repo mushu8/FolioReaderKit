@@ -62,6 +62,7 @@
 		6F00F92B1E968EB30089CDD1 /* ExcellenceInMotion-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FF550591E84299C006F91B6 /* ExcellenceInMotion-Bold.otf */; };
 		6F00F92C1E968EB30089CDD1 /* ExcellenceInMotion.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FF5505B1E84299C006F91B6 /* ExcellenceInMotion.otf */; };
 		6F8827961E9BAD27006A61A5 /* CommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8827941E9BAD27006A61A5 /* CommonCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F88279A1E9BBCFA006A61A5 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8827921E9BAD27006A61A5 /* CommonCrypto.framework */; };
 		6FB758101E9BA82400EB2F7D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB7580F1E9BA82400EB2F7D /* Security.framework */; };
 		6FC31D001E9671C10023BBE5 /* FREncrypter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC31CFF1E9671C10023BBE5 /* FREncrypter.swift */; };
 		6FF5505D1E84299C006F91B6 /* ExcellenceInMotion-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FF5505A1E84299C006F91B6 /* ExcellenceInMotion-Medium.otf */; };
@@ -74,6 +75,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6F88279B1E9BBD05006A61A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0D699021D035FA1003B4CCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F8827911E9BAD27006A61A5;
+			remoteInfo = CommonCrypto;
+		};
 		B0D699171D035FA2003B4CCD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B0D699021D035FA1003B4CCD /* Project object */;
@@ -179,6 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F88279A1E9BBCFA006A61A5 /* CommonCrypto.framework in Frameworks */,
 				6FB758101E9BA82400EB2F7D /* Security.framework in Frameworks */,
 				5D79EE5F6A708E551D79CB8A /* Pods_FolioReaderKit.framework in Frameworks */,
 			);
@@ -499,6 +508,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				6F88279C1E9BBD05006A61A5 /* PBXTargetDependency */,
 			);
 			name = FolioReaderKit;
 			productName = FolioReaderKit;
@@ -755,6 +765,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		6F88279C1E9BBD05006A61A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F8827911E9BAD27006A61A5 /* CommonCrypto */;
+			targetProxy = 6F88279B1E9BBD05006A61A5 /* PBXContainerItemProxy */;
+		};
 		B0D699181D035FA2003B4CCD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B0D6990A1D035FA2003B4CCD /* FolioReaderKit */;
@@ -992,6 +1007,7 @@
 				6F8827991E9BAD27006A61A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0D699051D035FA1003B4CCD /* Build configuration list for PBXProject "FolioReaderKit" */ = {
 			isa = XCConfigurationList;

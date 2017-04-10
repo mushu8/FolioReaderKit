@@ -18,13 +18,17 @@ Pod::Spec.new do |s|
     'Source/*.{h,swift}',
     'Source/**/*.swift',
     'Vendor/**/*.swift',
+	'CommonCrypto/*.{h,m}',
   ]
   s.resources = [
     'Source/**/*.{js,css}',
     'Source/Resources/*.xcassets',
     'Source/Resources/Fonts/**/*.{otf,ttf}'
   ]
-  s.public_header_files = 'Source/*.h'
+  s.public_header_files = 'Source/*.h', 'CommonCrypto/*.h'
+
+  s.xcconfig = { 'SWIFT_INCLUDE_PATHS' =>'$(PODS_ROOT)/CommonCrypto/iphoneos.modulemap' }
+  s.preserve_paths = 'CommonCrypto/iphoneos.modulemap'
 
   s.libraries  = "z"
   s.dependency 'SSZipArchive', '~> 1.6'
