@@ -194,6 +194,7 @@
 		1A958F031D397BE900D56699 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				6F71EE531E96B36500A48136 /* CommonCrypto */,
 				1A958F041D397BE900D56699 /* EPUBCore */,
 				1A958F0F1D397BE900D56699 /* FolioReaderAudioPlayer.swift */,
 				1A958F101D397BE900D56699 /* FolioReaderCenter.swift */,
@@ -314,13 +315,12 @@
 			path = Raleway;
 			sourceTree = "<group>";
 		};
-		6F71EE531E96B36500A48136 /* CCommonCrypto */ = {
+		6F71EE531E96B36500A48136 /* CommonCrypto */ = {
 			isa = PBXGroup;
 			children = (
 				6FB757FB1E9B83D900EB2F7D /* module.map */,
 			);
-			name = CCommonCrypto;
-			path = Source/CCommonCrypto;
+			path = CommonCrypto;
 			sourceTree = "<group>";
 		};
 		6FF550581E84299C006F91B6 /* Excellence */ = {
@@ -350,7 +350,6 @@
 				1A9590161D397CAF00D56699 /* FolioReaderKit.podspec */,
 				B0D6990D1D035FA2003B4CCD /* FolioReaderKit */,
 				B0D699191D035FA2003B4CCD /* FolioReaderKitTests */,
-				6F71EE531E96B36500A48136 /* CCommonCrypto */,
 				B0D6990C1D035FA2003B4CCD /* Products */,
 				1A65DDCA1DA73F8C0033C277 /* Frameworks */,
 				80910E881BCB0F246AE24205 /* Pods */,
@@ -812,7 +811,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.folioreader.FolioReaderKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Source/CCommonCrypto";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Source/CommonCrypto";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -840,7 +839,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.folioreader.FolioReaderKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Source/CCommonCrypto";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Source/CommonCrypto";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
