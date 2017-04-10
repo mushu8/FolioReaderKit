@@ -13,6 +13,7 @@ target 'FolioReaderKit' do
   pod 'FontBlaster', '3.0.0'
   pod 'JSQWebViewController', '~> 5.0'
   pod 'RealmSwift', '~> 2.1'
+  pod 'Arcane', '~> 0.5'
 
   target 'FolioReaderKitTests' do
     inherit! :search_paths

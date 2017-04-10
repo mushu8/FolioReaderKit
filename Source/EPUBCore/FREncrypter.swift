@@ -7,7 +7,8 @@
 //
 
 import Foundation
-import CommonCrypto
+import Arcane
+import CCommonCrypto
 
 class FREncrypter: NSObject
 {
@@ -36,7 +37,7 @@ class FREncrypter: NSObject
 			debugPrint("hasheddeofuscationKey: \(hasheddeofuscationKey)")
 		}
 		catch {
-
+			debugPrint("error caught")
 		}
 	}
 

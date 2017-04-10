@@ -126,7 +126,7 @@ class FREpubParser: NSObject, SSZipArchiveDelegate {
 		do {
 			let containerData = try Data(contentsOf: URL(fileURLWithPath: (bookBasePath as NSString).appendingPathComponent(encryptionPath)), options: .alwaysMapped)
 			let xmlDoc = try AEXMLDocument(xml: containerData)
-			let encryptedData = xmlDoc.children
+			let encryptedData = xmlDoc.root.children
 			for encryptedItem in encryptedData {
 				let encryptionMethod	= encryptedItem["enc:EncryptionMethod"].attributes["Algorithm"]!
 				let encryptedFontPath	= encryptedItem["enc:CipherData"]["enc:CipherReference"].attributes["URI"]!
