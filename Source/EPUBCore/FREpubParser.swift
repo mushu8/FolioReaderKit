@@ -131,7 +131,7 @@ class FREpubParser: NSObject, SSZipArchiveDelegate {
 				let encryptionMethod	= encryptedItem["enc:EncryptionMethod"].attributes["Algorithm"]!
 				let encryptedFontPath	= encryptedItem["enc:CipherData"]["enc:CipherReference"].attributes["URI"]!
 
-				FREncrypter.shared.deobfuscate(path: encryptedFontPath, method: encryptionMethod)
+				FREncrypter.shared.deobfuscate(path: (bookBasePath as NSString).appendingPathComponent(encryptedFontPath), method: encryptionMethod)
 			}
 		} catch {
 			print("Cannot read encryption.xml")
