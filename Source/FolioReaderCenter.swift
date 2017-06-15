@@ -110,7 +110,7 @@ open class FolioReaderCenter: UIViewController, UICollectionViewDelegate, UIColl
     override open func viewDidLoad() {
         super.viewDidLoad()
         
-        screenBounds = self.view.frame
+        screenBounds = self.view.bounds
         setPageSize(UIApplication.shared.statusBarOrientation)
         
         // Layout
@@ -132,7 +132,6 @@ open class FolioReaderCenter: UIViewController, UICollectionViewDelegate, UIColl
         collectionView.showsHorizontalScrollIndicator = false
         collectionView.backgroundColor = background
         collectionView.decelerationRate = UIScrollViewDecelerationRateFast
-		collectionView.backgroundColor = #colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1)
 		enableScrollBetweenChapters(scrollEnabled: true)
         view.addSubview(collectionView)
         
@@ -426,7 +425,6 @@ open class FolioReaderCenter: UIViewController, UICollectionViewDelegate, UIColl
 				html = modifiedHtmlContent
 			}
 
-			debugPrint("page html: \(html)")
 			cell.loadHTMLString(html, baseURL: URL(fileURLWithPath: (resource.fullHref as NSString).deletingLastPathComponent))
 		}
 
