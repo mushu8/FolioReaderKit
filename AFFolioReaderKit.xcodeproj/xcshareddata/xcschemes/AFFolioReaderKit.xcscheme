@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B0D6990A1D035FA2003B4CCD"
-               BuildableName = "FolioReaderKit.framework"
-               BlueprintName = "FolioReaderKit"
-               ReferencedContainer = "container:FolioReaderKit.xcodeproj">
+               BuildableName = "AFFolioReaderKit.framework"
+               BlueprintName = "AFFolioReaderKit"
+               ReferencedContainer = "container:AFFolioReaderKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B0D699141D035FA2003B4CCD"
-               BuildableName = "FolioReaderKitTests.xctest"
-               BlueprintName = "FolioReaderKitTests"
-               ReferencedContainer = "container:FolioReaderKit.xcodeproj">
+               BuildableName = "AFFolioReaderKitTests.xctest"
+               BlueprintName = "AFFolioReaderKitTests"
+               ReferencedContainer = "container:AFFolioReaderKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B0D6990A1D035FA2003B4CCD"
-            BuildableName = "FolioReaderKit.framework"
-            BlueprintName = "FolioReaderKit"
-            ReferencedContainer = "container:FolioReaderKit.xcodeproj">
+            BuildableName = "AFFolioReaderKit.framework"
+            BlueprintName = "AFFolioReaderKit"
+            ReferencedContainer = "container:AFFolioReaderKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B0D6990A1D035FA2003B4CCD"
-            BuildableName = "FolioReaderKit.framework"
-            BlueprintName = "FolioReaderKit"
-            ReferencedContainer = "container:FolioReaderKit.xcodeproj">
+            BuildableName = "AFFolioReaderKit.framework"
+            BlueprintName = "AFFolioReaderKit"
+            ReferencedContainer = "container:AFFolioReaderKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -83,9 +83,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B0D6990A1D035FA2003B4CCD"
-            BuildableName = "FolioReaderKit.framework"
-            BlueprintName = "FolioReaderKit"
-            ReferencedContainer = "container:FolioReaderKit.xcodeproj">
+            BuildableName = "AFFolioReaderKit.framework"
+            BlueprintName = "AFFolioReaderKit"
+            ReferencedContainer = "container:AFFolioReaderKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
